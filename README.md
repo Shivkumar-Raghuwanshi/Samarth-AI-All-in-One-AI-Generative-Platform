@@ -25,6 +25,19 @@ This project uses the following technologies:
 1. Clone the repository to your local machine using `git clone https://github.com/Shivkumar-Raghuwanshi/Samarth-AI-All-in-One-AI-Generative-Platform.git`.
 2. Install the necessary dependencies using `npm install`.
 3. Set up your environment variables in a `.env` file in the root of your project. You'll need to provide your API keys for the various services used in this project.
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY = 
+NEXT_PUBLIC_CLERK_SIGN_IN_URL = /sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/dashboard
+NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/dashboard
+OPENAI_API_KEY= 
+REPLICATE_API_TOKEN =
+DATABASE_URL=
+STRIPE_SECRET=
+STRIPE_WEBHOOK_SECRET= 
+NEXT_PUBLIC_APP_URL=
+
 
 ## Usage
 
