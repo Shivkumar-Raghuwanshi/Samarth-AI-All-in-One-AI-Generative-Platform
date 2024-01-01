@@ -28,7 +28,7 @@ const MobileSidebar = ({
       <Sheet>
         <SheetTrigger>
           <Menu
-            className="md:hidden hover:bg-accent hover:text-accent-foreground h-6 w-6 "
+            className="md:hidden hover:bg-accent hover:text-accent-foreground h-6 w-6 text-white"
             type="button"
           >
             Menu

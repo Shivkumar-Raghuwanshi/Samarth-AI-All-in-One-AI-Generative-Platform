@@ -53,10 +53,10 @@ const tools = [
 const DashboardPage = () => {
   const router = useRouter();
   return (
-    <>
+    <div className="bg-slate-100 p-2">
       <div className="mb-8 space-y-4">
         <h2 className="tex-2xl md:text-4xl font-bold text-center">
-          Explore The Power of AI
+        Explore the Strength of Artificial Intelligence
         </h2>
         <p className="test-muted-forground font-light text-sm md:text-lg text-center">
           Chat with smartest AI
@@ -67,19 +67,19 @@ const DashboardPage = () => {
           <Card 
           onClick={()=>router.push(tool.href)}
             key={tool.href}
-            className="p-4 border-black/5 flex items-center justify-center hover:shadow-md transition cursor-pointer"
+            className="p-4 bg-slate-950 flex items-center justify-center hover:bg-black transition cursor-pointer rounded-full"
           >
             <div className="flex items-center gap-x-4">
               <div className={cn("p-2 w-fit rounded-md", tool.bgColor)}>
                 <tool.icon className={cn("w-8 h-8", tool.color)} />
               </div>
-              <div className=" font-semibold w-52">{tool.label}</div>
+              <div className="w-52 text-white">{tool.label}</div>
             </div>
-            <ArrowRight className=" w-5 h-5" />
+            <ArrowRight className=" w-5 h-5 text-blue-700" />
           </Card>
         ))}
       </div>
-    </>
+    </div>
   );
 };
 export default DashboardPage;

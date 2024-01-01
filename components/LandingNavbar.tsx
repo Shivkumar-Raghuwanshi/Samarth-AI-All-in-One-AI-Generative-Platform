@@ -15,7 +15,7 @@ export const LandingNavbar = () => {
   const { isSignedIn } = useAuth();
 
   return (
-    <nav className="p-4 bg-transparent flex items-center justify-between">
+    <nav className="p-4  flex items-center justify-between bg-blue-600">
       <Link href="/" className="flex items-center">
         <div className="relative h-9 w-9 mr-4">
           <Image src="/logo.png" alt="logo" width={36} height={36}/>

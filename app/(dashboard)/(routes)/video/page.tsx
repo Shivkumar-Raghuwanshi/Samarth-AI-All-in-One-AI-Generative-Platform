@@ -65,7 +65,7 @@ const VideoPage = () => {
             <Form {...form}>
               <form
                 onSubmit={form.handleSubmit(onSubmit)}
-                className="rounded-lg border w-full p-4 px-3 md:px-6 focus-within:shadow-sm grid grid-cols-12 gap-2"
+                className="rounded-lg border w-full p-4 px-3 md:px-6 focus-within:shadow-sm grid grid-cols-12 gap-2 bg-slate-950"
               >
                 <FormField
                   name="prompt"
@@ -73,7 +73,7 @@ const VideoPage = () => {
                     <FormItem className="col-span-12 lg:col-span-10">
                       <FormControl className="m-0 p-0">
                         <Input
-                          className="border-0 outline-none focus-visible:ring-0 focus-visible:ring-transparent"
+                          className="border-0 outline-none focus-visible:ring-0 focus-visible:ring-transparent bg-slate-950 text-white"
                           disabled={isLoading}
                           placeholder="Clown fish swimming around a corel reef"
                           {...field}
@@ -83,7 +83,7 @@ const VideoPage = () => {
                   )}
                 />
                 <Button
-                  className="col-span-12 lg:col-span-2 w-full"
+                  className="col-span-12 lg:col-span-2 w-full text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                   disabled={isLoading}
                 >
                   Generate
