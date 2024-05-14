@@ -6,7 +6,8 @@ Samarth AI is an all-in-one prompt generation platform. It supports conversation
 
 ## Watch the video by clicking on the thumbnail below:
 
-[![YouTube Video Thumbnail](https://img.youtube.com/vi/1aq-SgDJMmA/maxresdefault.jpg)](https://www.youtube.com/embed/1aq-SgDJMmA?si=esNO5YJplXq6-4QI)
+[![YouTube Video Thumbnail](https://img.youtube.com/vi/1aq-SgDJMmA/maxresdefault.jpg)](https://www.youtube.com/embed/1aq-SgDJMmA?si=VpHktHa0YlrbBzyu)
+
 
 
 ## Tech Stack
