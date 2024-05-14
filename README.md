@@ -4,6 +4,11 @@ Live: https://samarth-ai-all-in-one-ai-generative-platform.vercel.app/
 
 Samarth AI is an all-in-one prompt generation platform. It supports conversation, image generation, music generation, video generation, and code generation. This platform is designed to provide a seamless experience for generating various types of content using advanced AI technologies.
 
+## Watch the video by clicking on the thumbnail below:
+
+[![YouTube Video Thumbnail](https://img.youtube.com/vi/1aq-SgDJMmA/maxresdefault.jpg)](https://www.youtube.com/embed/1aq-SgDJMmA?si=esNO5YJplXq6-4QI)
+
+
 ## Tech Stack
 
 This project uses the following technologies:
